@@ -15,3 +15,5 @@ module.exports = {
 }
 
 // npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+// add some shades behind elements
