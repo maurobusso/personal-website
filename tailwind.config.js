@@ -8,6 +8,8 @@ module.exports = {
       fontFamily: {
         Darumadrop: ['"Darumadrop One"', 'sans-serif'],
         Fredericka: ['"Fredericka the Great"', 'sand-serif'],
+        Pangolin: ['"Pangolin"', 'sand-serif'],
+        SpecialElite: ['"Special Elite"', 'sand-serif']
       },
     }
   },
