@@ -7,6 +7,7 @@ export default function Project() {
     return (
       <>
         <span className="flex justify-center mt-20 mb-20">My Projects</span>
+        {/* <span className="px-10">click on any project to learn more</span> */}
         <div className="flex flex-col gap-10 mx-4 md:mx-10 lg:flex-row lg:flex-wrap">
           <div className="basis-1/3 flex-1 m-8 md:basis-1/4">
             <h1 className="my-4">Explore Space</h1>
