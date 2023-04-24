@@ -3,7 +3,7 @@ import React from "react"
 export default function Contacts() {
     return (
       <>
-        <div className="flex">
+        <div className="flex justify-center gap">
             <div>
                 <a href="#" className="ml-8">email</a>
             </div>

@@ -5,9 +5,9 @@ export default function Project() {
       <>
         <div >
           <h1>title</h1>
-          <img alt="" />
+          <img src="" />
           <span>tech used</span>
-          <div>brief description</div>
+          <div></div>
         </div>
       </>
     )
