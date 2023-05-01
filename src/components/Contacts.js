@@ -3,18 +3,18 @@ import React from "react"
 export default function Contacts() {
     return (
       <>
-        <div className="flex justify-center gap">
+        <div className="flex justify-center gap m-20">
             <div>
-                <a href="#" className="ml-8">email</a>
+                <a href="#" className="m-8">email</a>
             </div>
             <div>
-                <a href="#" className="ml-8">Linkedin</a>
+                <a href="#" className="m-8">Linkedin</a>
             </div>
             <div>
-                <a href="#" className="ml-8">Github</a>
+                <a href="#" className="m-8">Github</a>
             </div>
             <div>
-                <a href="#" className="ml-8">Twitter</a>
+                <a href="#" className="m-8">Twitter</a>
             </div>
         </div>
       </>
