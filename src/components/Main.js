@@ -22,9 +22,9 @@ export default function Main() {
         <div>
           <image>my pic</image>
         </div>
-        <div>
-          <button onClick={click} className="border m-3 p-3 bg-green-700 text-white">Get in touch</button>
-        </div>
+        {/* <div>
+          <button onClick={click} className="border my-5 p-3 bg-green-700 text-white">Get in touch</button>
+        </div> */}
       </div>
     </>
   )
