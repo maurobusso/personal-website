@@ -17,13 +17,17 @@ export default function Project() {
           <div className="basis-1/3 flex-1 m-8 md:basis-1/4">
             <h1 className="my-4">Explore Space</h1> 
             <a href="https://explore-space-app.netlify.app/">
-              <img src={project1} alt="" className="rounded-lg object-cover" ></img>
+              <img src={project1} 
+                   alt="project 1 img" 
+                   style={{ height: "200px", width: "300px" }}
+                   className="rounded-lg object-cover" >                
+              </img>
             </a>
             <div className="my-4">
               <h4>Tech used:</h4>
-              <ul className="flex item-center gap-10">
+              <ul className="flex item-center gap-10 my-4">
                 <li className="w-10 flex-col justify-center items-center">
-                  <img src={html}
+                  <img src={html}                    
                        alt="html-logo"/>
                   <div>
                     <h5 className="flex justify-center">html</h5>
@@ -50,11 +54,15 @@ export default function Project() {
           <div className="basis-1/3 flex-1 m-8 md:basis-1/4">
             <h1 className="my-4">Calculator for Local Anaesthetic</h1>
             <a href="https://msd-app.netlify.app/">
-              <img src={project2} alt="" className="rounded-lg object-cover" ></img>
+              <img src={project2} 
+                   alt="project 2 img" 
+                   style={{ height: "200px", width: "300px" }}
+                   className="rounded-lg object-cover" >
+              </img>
             </a>
             <div className="my-4">
               <h4>Tech used:</h4>
-              <ul className="flex item-center gap-10">
+              <ul className="flex item-center gap-10 my-4">
                 <li className="w-10 flex-col justify-center items-center">
                   <img src={html}
                        alt="html-logo"/>
@@ -83,11 +91,15 @@ export default function Project() {
           <div className="basis-1/3 flex-1 m-8 md:basis-1/4">
             <h1 className="my-4">Travel Journal</h1>
             <a href="https://mauro-travel-journal.netlify.app/">
-              <img src={project3} alt="" className="rounded-lg object-cover" ></img>
+              <img src={project3} 
+                   alt="project 3 img" 
+                   style={{ height: "200px", width: "300px" }}
+                   className="rounded-lg object-cover" >
+              </img>
             </a>
             <div className="my-4">
               <h4>Tech used:</h4>
-              <ul className="flex item-center gap-10">
+              <ul className="flex item-center gap-10 my-4">
                 <li className="w-10 flex-col justify-center items-center">
                   <img src={html}
                        alt="html-logo"/>
