@@ -1,9 +1,9 @@
 //import './App.css'
 import React from "react"
 
-function click(){
-  console.log('hello')
-}
+// function click(){
+//   console.log('hello')
+// }
 
 export default function Main() {
   return (
@@ -22,9 +22,6 @@ export default function Main() {
         <div>
           <image>my pic</image>
         </div>
-        {/* <div>
-          <button onClick={click} className="border my-5 p-3 bg-green-700 text-white">Get in touch</button>
-        </div> */}
       </div>
     </>
   )
