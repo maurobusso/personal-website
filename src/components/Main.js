@@ -8,15 +8,22 @@ function click(){
 export default function Main() {
   return (
     <>
-      <div>
-        <div>
-          <h1>
-            Hi, I am Mauro
+      <div className="m-20">
+        <div className="">
+          <h1 className="font-extrabold text-green-600 underline my-6">
+            Hello, I am Mauro
           </h1>
-          <p>I'm a front-end developer with a passion for building impressive web apps and websites. I love to problem solve and think outside of the box.</p>
+          <div className="my-3">
+            FULL-STACK SOFTWARE ENGINEER | NODE.JS | JAVASCRIPT | REACT | MONGO DB
+          </div>
+          <p className="text-justify">I'm a front-end developer with a passion for building web apps and websites. I love to problem solve and think outside of the box. A strong background in the Health care has taught me the importance of continus learning and improving, and how to communicate effectively. I am highly passionate about furthering my development and career in tech and I am open to hearing about opportunites!
+          </p>
         </div>
         <div>
-          <button onClick={click}>Get in touch</button>
+          <image>my pic</image>
+        </div>
+        <div>
+          <button onClick={click} className="border m-3 p-3 bg-green-700 text-white">Get in touch</button>
         </div>
       </div>
     </>
