@@ -10,7 +10,7 @@ export default function Main() {
     <>
       <div className="m-20">
         <div className="">
-          <h1 className="font-extrabold text-green-600 underline my-6">
+          <h1 className="font-extrabold text-3xl text-green-600 underline my-6">
             Hello, I am Mauro
           </h1>
           <div className="my-3">
