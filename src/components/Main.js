@@ -11,10 +11,10 @@ export default function Main() {
     <>
       <div className="m-10 items-center justify-center md:m-20 lg-60">
         <div className="">
-          <h1 className="font-extrabold text-3xl text-green-600 underline my-6">
+          <h1 className="font-extrabold text-3xl text-green-600 underline my-20">
             Hello, I am Mauro
           </h1>
-          <div className="my-3">
+          <div className="my-8">
             FULL-STACK SOFTWARE ENGINEER | NODE.JS | JAVASCRIPT | REACT | MONGO DB
           </div>
           <p className="text-justify ">
