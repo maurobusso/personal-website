@@ -2,6 +2,8 @@ import React from "react"
 import project1 from "../Assets/projects-tumbnails/explore-space.png"
 import project2 from "../Assets/projects-tumbnails/local-anahestetic-calculator.png"
 import project3 from "../Assets/projects-tumbnails/travel-journal.png"
+import html from "../Assets/icons/html-doodle.png"
+import tailwind from "../Assets/icons/tailwind-doodle.png"
 
 export default function Project() {
     return (
@@ -14,7 +16,13 @@ export default function Project() {
             <a href="https://explore-space-app.netlify.app/">
               <img src={project1} alt="" className="rounded-lg object-cover" ></img>
             </a>
-            <span className="my-4">Tech used</span>
+            <div className="my-4">
+              <h4>Tech used</h4>
+              <ul className="flex w-24 gap-2 justify-center">
+                <li><img src={html} alt="html-logo" /></li>
+                <li><img src={tailwind} alt="tailwind-logo" /></li>
+              </ul>
+            </div>
             <div className="my-4">This is an app that allow the user to fetch data from the NASA API and display images and some informations about our amazing universe.</div>
           </div>
           <div className="basis-1/3 flex-1 m-8 md:basis-1/4">
@@ -22,7 +30,12 @@ export default function Project() {
             <a href="https://msd-app.netlify.app/">
               <img src={project2} alt="" className="rounded-lg object-cover" ></img>
             </a>
-            <span className="my-4">Tech used</span>
+            <div className="my-4">
+              <h4>Tech used</h4>
+              <ul>
+                <li><img src={html} alt="html-logo" /></li>
+              </ul>
+            </div>
             <div className="my-4">This app was made as a tool to be used by podiatrist when calculating the amount of local anaesthetic to safely inject into a patient. This is because for experience, i know that most podiatry do not remember the exact mathematical equation and they always have to look it up and manually calculate the dose, which is not ideal. Taking up time that can be used more efficiently.</div>
           </div>
           <div className="basis-1/3 flex-1 m-8 md:basis-1/4">
