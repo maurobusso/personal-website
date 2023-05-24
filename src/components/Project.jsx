@@ -1,4 +1,4 @@
-import React from "react"
+//import React from "react"
 import project1 from "../Assets/projects-tumbnails/explore-space.png"
 import project2 from "../Assets/projects-tumbnails/local-anahestetic-calculator.png"
 import project3 from "../Assets/projects-tumbnails/travel-journal.png"
@@ -21,22 +21,22 @@ export default function Project() {
             </a>
             <div className="my-4">
               <h4>Tech used</h4>
-              <ul className="flex my-4 gap-4">
-                <li className="">
+              <ul className="flex justify-center gap-10">
+                <li className="w-10 flex-col justify-center">
                   <img src={html}
                        alt="html-logo"/>
-                  <h5>html</h5>
+                  <h5 className="">html</h5>
                 </li>
-                <li>
+                <li className="w-10 flex-col justify-center">
                   <img src={tailwind}
                       alt="tailwind-logo"/>
-                  <h5>Tailwind.css</h5>    
+                  <h5>Tailwind</h5>    
                 </li>
-                <li>
+                <li className="w-10 flex-col justify-center">
                   <img src={js} 
-                       alt="react-logo"/>
+                       alt="js-logo"/>
                   <h5>Javascript</h5>                       
-                  </li> 
+                </li> 
               </ul>
             </div>
             <div className="my-4">This is an app that allow the user to fetch data from the NASA API and display images and some informations about our amazing universe.</div>
@@ -48,19 +48,22 @@ export default function Project() {
             </a>
             <div className="my-4">
               <h4>Tech used</h4>
-              <ul className="flex items-center w-32 my-4">
-                <li>
+              <ul className="flex justify-center gap-10">
+                <li className="w-10 flex-col justify-center">
                   <img src={html}
                        alt="html-logo"/>
+                  <h5 className="">html</h5>
                 </li>
-                <li>
+                <li className="w-10 flex-col justify-center">
                   <img src={tailwind}
                       alt="tailwind-logo"/>
+                  <h5>Tailwind</h5>    
                 </li>
-                <li>
+                <li className="w-10 flex-col justify-center">
                   <img src={js} 
-                       alt="react-logo"/>
-                  </li>                     
+                       alt="js-logo"/>
+                  <h5>Javascript</h5>                       
+                </li> 
               </ul>
             </div>
             <div className="my-4">This app was made as a tool to be used by podiatrist when calculating the amount of local anaesthetic to safely inject into a patient. This is because for experience, i know that most podiatry do not remember the exact mathematical equation and they always have to look it up and manually calculate the dose, which is not ideal. Taking up time that can be used more efficiently.</div>
