@@ -20,22 +20,28 @@ export default function Project() {
               <img src={project1} alt="" className="rounded-lg object-cover" ></img>
             </a>
             <div className="my-4">
-              <h4>Tech used</h4>
-              <ul className="flex justify-center gap-10">
-                <li className="w-10 flex-col justify-center">
+              <h4>Tech used:</h4>
+              <ul className="flex item-center gap-10">
+                <li className="w-10 flex-col justify-center items-center">
                   <img src={html}
                        alt="html-logo"/>
-                  <h5 className="">html</h5>
+                  <div>
+                    <h5 className="flex justify-center">html</h5>
+                  </div>
                 </li>
-                <li className="w-10 flex-col justify-center">
+                <li className="w-10 flex-col justify-center items-center">
                   <img src={tailwind}
                       alt="tailwind-logo"/>
-                  <h5>Tailwind</h5>    
+                  <div>
+                    <h5 className="flex justify-center">Tailwind</h5>
+                  </div>   
                 </li>
-                <li className="w-10 flex-col justify-center">
+                <li className="w-10 flex-col justify-center items-center">
                   <img src={js} 
                        alt="js-logo"/>
-                  <h5>Javascript</h5>                       
+                  <div>
+                    <h5 className="flex justify-center">Javascript</h5>
+                  </div>                      
                 </li> 
               </ul>
             </div>
@@ -47,22 +53,28 @@ export default function Project() {
               <img src={project2} alt="" className="rounded-lg object-cover" ></img>
             </a>
             <div className="my-4">
-              <h4>Tech used</h4>
-              <ul className="flex justify-center gap-10">
-                <li className="w-10 flex-col justify-center">
+              <h4>Tech used:</h4>
+              <ul className="flex item-center gap-10">
+                <li className="w-10 flex-col justify-center items-center">
                   <img src={html}
                        alt="html-logo"/>
-                  <h5 className="">html</h5>
+                  <div>
+                    <h5 className="flex justify-center">html</h5>
+                  </div>
                 </li>
-                <li className="w-10 flex-col justify-center">
+                <li className="w-10 flex-col justify-center items-center">
                   <img src={tailwind}
                       alt="tailwind-logo"/>
-                  <h5>Tailwind</h5>    
+                  <div>
+                    <h5 className="flex justify-center">Tailwind</h5>
+                  </div>   
                 </li>
-                <li className="w-10 flex-col justify-center">
+                <li className="w-10 flex-col justify-center items-center">
                   <img src={js} 
                        alt="js-logo"/>
-                  <h5>Javascript</h5>                       
+                  <div>
+                    <h5 className="flex justify-center">Javascript</h5>
+                  </div>                      
                 </li> 
               </ul>
             </div>
@@ -73,7 +85,32 @@ export default function Project() {
             <a href="https://mauro-travel-journal.netlify.app/">
               <img src={project3} alt="" className="rounded-lg object-cover" ></img>
             </a>
-            <span className="my-4">Tech used</span>
+            <div className="my-4">
+              <h4>Tech used:</h4>
+              <ul className="flex item-center gap-10">
+                <li className="w-10 flex-col justify-center items-center">
+                  <img src={html}
+                       alt="html-logo"/>
+                  <div>
+                    <h5 className="flex justify-center">html</h5>
+                  </div>
+                </li>
+                <li className="w-10 flex-col justify-center items-center">
+                  <img src={tailwind}
+                      alt="tailwind-logo"/>
+                  <div>
+                    <h5 className="flex justify-center">Tailwind</h5>
+                  </div>   
+                </li>
+                <li className="w-10 flex-col justify-center items-center">
+                  <img src={react} 
+                       alt="react-logo"/>
+                  <div>
+                    <h5 className="flex justify-center">React</h5>
+                  </div>                      
+                </li> 
+              </ul>
+            </div>
             <div className="my-4">This project was inspired by the Scrimba react course as a final solo project at the end of the second module of the course. It is a static page that display different location with immages, a brief description and a link to the google map location.</div>
           </div>
           <div className="basis-1/3 flex-1 m-8 md:basis-1/4">
@@ -88,10 +125,3 @@ export default function Project() {
       </>
     )
   }
-
-  <li>
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                  alt="html-logo"
-                />
-              </li>
