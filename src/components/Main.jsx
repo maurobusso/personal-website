@@ -11,7 +11,7 @@ export default function Main() {
     <>
       <div className="m-10 items-center justify-center md:m-20 lg-60">
         <div className="md:text-center">
-          <h1 className="font-extrabold text-3xl text-green-600 underline my-20">
+          <h1 className="font-Fredericka text-3xl text-green-600 underline my-20">
             Hello, I am Mauro
           </h1>
           <div className="my-8">

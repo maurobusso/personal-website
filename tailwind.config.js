@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Darumadrop: ['"Darumadrop One"', 'sans-serif'],
+        Fredericka: ['"Fredericka the Great"', 'sand-serif'],
+      },
+    }
   },
   plugins: [],
 }
