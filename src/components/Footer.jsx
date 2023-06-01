@@ -10,8 +10,11 @@ export default function Footer() {
               <input></input>
               <input></input>
               <input></input>
-          </form>    
+          </form> 
         </div>
+        <div className="py-10 bg-green-700" >
+          <span className="flex justify-center">Thank you for visiting my portfolio :)</span>
+        </div>   
       </>
     )
   }
