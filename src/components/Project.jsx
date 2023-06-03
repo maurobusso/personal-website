@@ -16,13 +16,15 @@ export default function Project() {
         <div className="flex flex-col gap-10 mx-4 md:mx-10 lg:flex-row lg:flex-wrap">
           <div className=" flex-1 m-8 md:basis-1/4">
             <h1 className="my-4">Explore Space</h1> 
-            <a href="https://explore-space-app.netlify.app/">
-              <img src={project1} 
-                   alt="project 1 img" 
-                   style={{ height: "200px", width: "300px" }}
-                   className="rounded-lg object-cover" >                
-              </img>
-            </a>
+            <div className="flex justify-center content-center">
+              <a href="https://explore-space-app.netlify.app/">
+                <img src={project1} 
+                    alt="project 1 img" 
+                    style={{ height: "200px", width: "300px" }}
+                    className="rounded-lg object-cover" >                
+                </img>
+              </a>
+            </div>
             <div className="my-4">
               <h4>Tech used:</h4>
               <ul className="flex item-center gap-10 my-4">
@@ -53,13 +55,15 @@ export default function Project() {
           </div>
           <div className=" flex-1 m-8 md:basis-1/4">
             <h1 className="my-4">Calculator for Local Anaesthetic</h1>
-            <a href="https://msd-app.netlify.app/">
-              <img src={project2} 
-                   alt="project 2 img" 
-                   style={{ height: "200px", width: "300px" }}
-                   className="rounded-lg object-cover" >
-              </img>
-            </a>
+            <div className="flex justify-center content-center">
+              <a href="https://msd-app.netlify.app/">
+                <img src={project2} 
+                    alt="project 2 img" 
+                    style={{ height: "200px", width: "300px" }}
+                    className="rounded-lg object-cover" >
+                </img>
+              </a>
+            </div>
             <div className="my-4">
               <h4>Tech used:</h4>
               <ul className="flex item-center gap-10 my-4">
@@ -90,13 +94,15 @@ export default function Project() {
           </div>
           <div className=" flex-1 m-8 md:basis-1/4">
             <h1 className="my-4">Travel Journal</h1>
-            <a href="https://mauro-travel-journal.netlify.app/">
-              <img src={project3} 
-                   alt="project 3 img" 
-                   style={{ height: "200px", width: "300px" }}
-                   className="rounded-lg object-cover" >
-              </img>
-            </a>
+            <div className="flex justify-center content-center">
+              <a href="https://mauro-travel-journal.netlify.app/">
+                <img src={project3} 
+                    alt="project 3 img" 
+                    style={{ height: "200px", width: "300px" }}
+                    className="rounded-lg object-cover" >
+                </img>
+              </a>
+            </div>
             <div className="my-4">
               <h4>Tech used:</h4>
               <ul className="flex item-center gap-10 my-4">
