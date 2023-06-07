@@ -143,7 +143,7 @@ export default function Project() {
           <div className="flex-1 m-8 md:basis-1/4 shadow-2xl rounded-2xl p-4">
             <h1 className="my-4">Blackjack</h1>
             <div className="flex justify-center content-center">
-              <a href="https://mauro-travel-journal.netlify.app/">
+              <a href="https://blackjack-game-mauro.netlify.app/">
                 <img src={project4} 
                     alt="project 3 img" 
                     style={{ height: "200px", width: "300px" }}
