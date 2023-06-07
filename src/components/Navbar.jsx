@@ -18,7 +18,7 @@ export default function Navbar() {
               <li className="mx-4 my-5 md:mx-8">
                 <Link to="about" smooth={true} duration={500}>About</Link>
               </li>
-              <li className="mx-4 my-5 p-4 bg-green-700 text-white md:mx-8"><a href="#" >Resume</a></li>
+              <li className="mx-4 my-5 p-4 bg-green-700 text-white md:mx-8"><span>Resume</span></li>
             </ul>
           </div>
         </nav>
