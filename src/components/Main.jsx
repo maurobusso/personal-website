@@ -17,7 +17,7 @@ export default function Main() {
             FULL-STACK SOFTWARE ENGINEER | NODE.JS | JAVASCRIPT | REACT | MONGO DB
           </div>
           <div className=" md:flex items-center">
-            <span className="text-xl md:px-8 lg:px-16 md:mt-20 md:max-w-2xl">
+            <span className="text-xl md:px-8 lg:px-16 md:mt-20 md:max-w-2xl font-SpecialElite">
               I'm a front-end developer with a passion for building web apps and websites. I love to problem solve and think outside of the box. A strong background in Health care has taught me the importance of continus learning and improving, and how to communicate effectively. I am highly passionate about furthering my development and career in tech and I am open to hearing about opportunites!
             </span>
 

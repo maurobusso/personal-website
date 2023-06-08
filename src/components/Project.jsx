@@ -14,7 +14,7 @@ export default function Project() {
     return (
       <>
         <span className="flex justify-center mt-40 mb-20 font-Fredericka text-3xl" id="project">My Projects</span>
-        <span className="flex justify-center px-10">Click on any project to learn more</span>
+        <span className="flex justify-center px-10 font-SpecialElite">Click on any project to learn more</span>
         <div className="flex flex-col gap-10 mx-4 md:mx-10 lg:flex-row lg:flex-wrap">
           <div className=" flex-1 m-8 md:basis-1/4 shadow-2xl rounded-2xl p-4">
             <h1 className="my-4">Explore Space</h1> 
@@ -60,7 +60,7 @@ export default function Project() {
                 </li>
               </ul>
             </div>
-            <div className="my-4">This is an app that allow the user to fetch data from the NASA API and display images and some informations about our amazing universe.</div>
+            <div className="my-4 font-SpecialElite">This is an app that allow the user to fetch data from various NASA APIs and display images and informations about our amazing universe. In the first section the app retrieve information regarding asteroids near our planet, in the other two section an image or photograph of our universe is fetured.</div>
           </div>
           <div className=" flex-1 m-8 md:basis-1/4 shadow-2xl rounded-2xl p-4">
             <h1 className="my-4">Calculator for Local Anaesthetic</h1>
@@ -99,7 +99,7 @@ export default function Project() {
                 </li> 
               </ul>
             </div>
-            <div className="my-4">This app was made as a tool to be used by podiatrist when calculating the amount of local anaesthetic to safely inject into a patient. This is because for experience, i know that most podiatry do not remember the exact mathematical equation and they always have to look it up and manually calculate the dose, which is not ideal. Taking up time that can be used more efficiently.</div>
+            <div className="my-4 font-SpecialElite">This app was made as a tool to be used by podiatrist when calculating the amount of local anaesthetic to safely inject into a patient. This is because for experience, i know that most podiatry do not remember the exact mathematical equation and they always have to look it up and manually calculate the dose, which is not ideal. Taking up time that can be used more efficiently.</div>
           </div>
           <div className="flex-1 m-8 md:basis-1/4 shadow-2xl rounded-2xl p-4">
             <h1 className="my-4">Travel Journal</h1>
@@ -138,7 +138,8 @@ export default function Project() {
                 </li> 
               </ul>
             </div>
-            <div className="my-4">This project was inspired by the Scrimba react course as a final solo project at the end of the second module of the course. It is a static page that display different location with immages, a brief description and a link to the google map location.</div>
+            <div className="my-4 font-SpecialElite">This project was inspired by the Scrimba react course as a final solo project at the end of the second module of the course. It is a static page that display different location with immages, a brief description and a link to the google map location.
+            </div>
           </div>
           <div className="flex-1 m-8 md:basis-1/4 shadow-2xl rounded-2xl p-4">
             <h1 className="my-4">Blackjack</h1>
@@ -183,6 +184,8 @@ export default function Project() {
                   </div>                      
                 </li> 
               </ul>
+            </div>
+            <div className="my-4 font-SpecialElite">This project was inspired by the Scrimba react course as a final solo project at the end of the second module of the course. It is a static page that display different location with immages, a brief description and a link to the google map location.
             </div>
             <div className="my-4"></div>
           </div>  

@@ -5,7 +5,7 @@ export default function Navbar() {
 
     return (
       <>
-        <nav className="">
+        <nav className="font-SpecialElite">
           <div className="">
             <p></p>
             <ul className="flex items-center justify-center md:justify-end">
