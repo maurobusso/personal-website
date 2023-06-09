@@ -4,6 +4,7 @@ import './index.css'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
 import Contacts from './components/Contacts'
+import Skills from './components/Skills'
 import Project from './components/Project'
 import Footer from './components/Footer'
 import reportWebVitals from './reportWebVitals'
@@ -14,6 +15,7 @@ root.render(
     <Navbar />
     <Main />
     <Contacts />
+    <Skills />
     <Project />
     <Footer />
   </>

@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-scroll"
+import mauroCv from "../Assets/Mauro-cv.pdf"
 
 export default function Navbar() {
 
@@ -18,7 +19,9 @@ export default function Navbar() {
               <li className="mx-4 my-5 md:mx-8">
                 <Link to="about" smooth={true} duration={500}>About</Link>
               </li>
-              <li className="mx-4 my-5 p-4 bg-green-700 text-white md:mx-8"><span>Resume</span></li>
+              <li className="mx-4 my-5 p-4 bg-green-700 text-white md:mx-8">
+                <a href={mauroCv} target="_blank" rel="noreferrer">Resume</a>
+              </li>
             </ul>
           </div>
         </nav>
