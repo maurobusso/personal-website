@@ -16,7 +16,7 @@ export default function Project() {
         <span className="flex justify-center mt-40 mb-20 font-Fredericka text-3xl" id="project">My Projects</span>
         <span className="flex justify-center px-10 font-SpecialElite">Click on any project to learn more</span>
         <div className="flex flex-col gap-10 mx-4 md:mx-10 lg:flex-row lg:flex-wrap">
-          <div className=" flex-1 m-8 md:basis-1/4 shadow-2xl rounded-2xl p-4">
+          <div className="flex-1 m-8 md:basis-1/4 shadow-2xl rounded-2xl p-4">
             <h1 className="my-4">Explore Space</h1> 
             <div className="flex justify-center content-center">
               <a href="https://explore-space-app.netlify.app/">

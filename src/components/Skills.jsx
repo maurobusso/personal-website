@@ -14,35 +14,9 @@ export default function Contacts() {
       <>
         <div className="mt-60" id="contact">
         <h2 className="flex justify-center font-Fredericka text-3xl" >My Toolkit</h2>
-            <div id="contact" className="flex flex-row justify-center gap-4 my-10 mx-10 pb-20 md:gap-8 md:my-20 md:mx-40 ">
+            <div id="contact" className="flex flex-row justify-center gap-4 my-10 mx-8 pb-20 md:gap-8 md:my-20 md:mx-40">
 
-                {/* <div>
-                    <div className="block w-14 md:inline-block m-2 md:m-8">
-                        <img src={html} alt="html logo" />
-                    </div>
-                </div>
-                <div>
-                    <div className="block w-14 md:inline-block m-2 md:m-8">
-                        <img  alt=" logo" />
-                    </div>
-                </div>
-                <div>
-                    <div className="block w-14 md:inline-block m-2 md:m-8">                    
-                        <img src={tailwind} alt="tailwind logo" />
-                    </div>
-                </div>
-                <div>
-                    <div className="block w-14 md:inline-block m-2 md:m-8">   
-                        <img src={javascript} alt="javascript logo" />         
-                    </div>
-                </div>
-                <div>
-                    <div className="block w-14 md:inline-block m-2 md:m-8">   
-                        <img src={git} alt="git logo" />         
-                    </div>
-                </div> */}
-
-                <ul className="flex item-center gap-10 my-4">
+                <ul className="flex flex-row flex-wrap justify-center gap-5 md:gap-10 my-2">
                     <li className="block w-14 md:inline-block m-2 md:m-8">
                         <img src={html}                    
                             alt="html-logo"/>
