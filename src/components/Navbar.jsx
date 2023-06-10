@@ -14,7 +14,7 @@ export default function Navbar() {
                 <Link to="contact" smooth={true} duration={500}>Contact</Link>
               </li>
               <li className="mx-4 my-5 md:mx-8">
-                <Link to="project" smooth={true} duration={500}>Work</Link>
+                <Link to="project" smooth={true} duration={500}>Projects</Link>
               </li>
               <li className="mx-4 my-5 md:mx-8">
                 <Link to="about" smooth={true} duration={500}>About</Link>

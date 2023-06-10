@@ -17,7 +17,7 @@ export default function Project() {
         <span className="flex justify-center px-10 font-SpecialElite">Click on any project to learn more</span>
         <div className="flex flex-col gap-10 mx-4 md:mx-10 lg:flex-row lg:flex-wrap">
           <div className="flex-1 m-8 md:basis-1/4 shadow-2xl rounded-2xl p-4">
-            <h1 className="my-4">Explore Space</h1> 
+            <h1 className="my-4 font-SpecialElite">Explore Space</h1> 
             <div className="flex justify-center content-center">
               <a href="https://explore-space-app.netlify.app/">
                 <img src={project1} 
@@ -63,7 +63,7 @@ export default function Project() {
             <div className="my-4 font-SpecialElite">This is an app that allow the user to fetch data from various NASA APIs and display images and informations about our amazing universe. In the first section the app retrieve information regarding asteroids near our planet, in the other two section an image or photograph of our universe is fetured.</div>
           </div>
           <div className=" flex-1 m-8 md:basis-1/4 shadow-2xl rounded-2xl p-4">
-            <h1 className="my-4">Calculator for Local Anaesthetic</h1>
+            <h1 className="my-4 font-SpecialElite">Calculator for Local Anaesthetic</h1>
             <div className="flex justify-center content-center">
               <a href="https://msd-app.netlify.app/">
                 <img src={project2} 
@@ -102,7 +102,7 @@ export default function Project() {
             <div className="my-4 font-SpecialElite">This app was made as a tool to be used by podiatrist when calculating the amount of local anaesthetic to safely inject into a patient. This is because for experience, i know that most podiatry do not remember the exact mathematical equation and they always have to look it up and manually calculate the dose, which is not ideal. Taking up time that can be used more efficiently.</div>
           </div>
           <div className="flex-1 m-8 md:basis-1/4 shadow-2xl rounded-2xl p-4">
-            <h1 className="my-4">Travel Journal</h1>
+            <h1 className="my-4 font-SpecialElite">Travel Journal</h1>
             <div className="flex justify-center content-center">
               <a href="https://mauro-travel-journal.netlify.app/">
                 <img src={project3} 
@@ -142,7 +142,7 @@ export default function Project() {
             </div>
           </div>
           <div className="flex-1 m-8 md:basis-1/4 shadow-2xl rounded-2xl p-4">
-            <h1 className="my-4">Blackjack</h1>
+            <h1 className="my-4 font-SpecialElite">Blackjack</h1>
             <div className="flex justify-center content-center">
               <a href="https://blackjack-game-mauro.netlify.app/">
                 <img src={project4} 
