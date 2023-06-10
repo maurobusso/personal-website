@@ -13,9 +13,8 @@ export default function Contacts() {
     return (
       <>
         <div className="mt-60" id="contact">
-        <h2 className="flex justify-center font-Fredericka text-3xl" >My Toolkit</h2>
+        <h2 className="flex justify-center font-Fredericka text-3xl" >My Tools</h2>
             <div id="contact" className="flex flex-row justify-center gap-4 my-10 mx-8 pb-20 md:gap-8 md:my-20 md:mx-40">
-
                 <ul className="flex flex-row flex-wrap justify-center gap-5 md:gap-10 my-2">
                     <li className="block w-14 md:inline-block m-2 md:m-8">
                         <img src={html}                    
@@ -80,8 +79,7 @@ export default function Contacts() {
                             <h5 className="flex justify-center">MongoDB</h5>
                         </div>
                     </li>
-                </ul>
-                
+                </ul> 
             </div>
         </div>
       </>

@@ -6,7 +6,7 @@ import Main from './components/Main'
 import Contacts from './components/Contacts'
 import Skills from './components/Skills'
 import Project from './components/Project'
-import Footer from './components/Footer'
+import About from './components/About'
 import reportWebVitals from './reportWebVitals'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
@@ -17,7 +17,7 @@ root.render(
     <Contacts />
     <Skills />
     <Project />
-    <Footer />
+    <About />
   </>
 )
 

@@ -1,4 +1,4 @@
-//import React from "react"
+import React from "react"
 import project1 from "../Assets/projects-tumbnails/explore-space.png"
 import project2 from "../Assets/projects-tumbnails/local-anahestetic-calculator.png"
 import project3 from "../Assets/projects-tumbnails/travel-journal.png"
@@ -29,7 +29,7 @@ export default function Project() {
             </div>
             <div className="my-4">
               <h4>Tech used:</h4>
-              <ul className="flex item-center gap-10 my-4">
+              <ul className="flex item-center gap-8 my-4">
                 <li className="w-10 flex-col justify-center items-center">
                   <img src={html}                    
                        alt="html-logo"/>
@@ -75,7 +75,7 @@ export default function Project() {
             </div>
             <div className="my-4">
               <h4>Tech used:</h4>
-              <ul className="flex item-center gap-10 my-4">
+              <ul className="flex item-center gap-8 my-4">
                 <li className="w-10 flex-col justify-center items-center">
                   <img src={html}
                        alt="html-logo"/>
@@ -114,7 +114,7 @@ export default function Project() {
             </div>
             <div className="my-4">
               <h4>Tech used:</h4>
-              <ul className="flex item-center gap-10 my-4">
+              <ul className="flex item-center gap-8 my-4">
                 <li className="w-10 flex-col justify-center items-center">
                   <img src={html}
                        alt="html-logo"/>
@@ -154,7 +154,7 @@ export default function Project() {
             </div>
             <div className="my-4">
               <h4>Tech used:</h4>
-              <ul className="flex item-center gap-10 my-4">
+              <ul className="flex item-center gap-8 my-4">
                 <li className="w-10 flex-col justify-center items-center">
                   <img src={html}
                        alt="html-logo"/>
