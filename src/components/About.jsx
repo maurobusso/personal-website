@@ -4,7 +4,7 @@ export default function About() {
     return (
       <>
         <div className="m-10 items-center justify-center md:m-20 lg-60" id="about">
-          <span className="flex justify-center mt-40 mb-20 font-Fredericka text-3xl">About Me</span>
+          <span className="flex justify-center mt-40 mb-20 font-Fredericka text-3xl text-yellow-600">About Me</span>
           <p className="font-SpecialElite">""At the age of 13, I discovered my passion for coding while exploring my dad's computer. Despite the limited resources and a lack of learning materials in my native language, I began teaching myself Python. Although I faced initial challenges and setbacks, my love for technology never wavered. 
           <br/>
           <br/>
@@ -17,7 +17,7 @@ export default function About() {
           I am now equipped with the knowledge and skills to contribute to the ever-evolving field of software development. I look forward to making a meaningful impact and collaborating with like-minded professionals in creating innovative solutions."
           </p>
         </div>
-        <div className="py-10 bg-green-700" >
+        <div className="py-10 bg-yellow-600" >
           <span className="flex justify-center font-SpecialElite text-xs md:text-lg">Thank you for visiting my portfolio :)</span>
         </div>   
       </>

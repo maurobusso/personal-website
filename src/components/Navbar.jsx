@@ -19,7 +19,7 @@ export default function Navbar() {
               <li className="mx-4 my-5 md:mx-8">
                 <Link to="about" smooth={true} duration={500}>About</Link>
               </li>
-              <li className="mx-4 my-5 p-4 bg-green-700 text-white md:mx-8">
+              <li className="mx-4 my-5 p-4 bg-yellow-600 text-white md:mx-8">
                 <a href={mauroCv} target="_blank" rel="noreferrer">Resume</a>
               </li>
             </ul>
