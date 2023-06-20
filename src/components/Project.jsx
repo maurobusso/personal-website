@@ -9,8 +9,11 @@ import react from "../Assets/icons/react.png"
 import js from "../Assets/icons/js.png"
 import api from "../Assets/icons/api-64.png"
 
-//data that i need from every project
-//title, img, logo of techs used, description
+//project data
+import data from "../Assets/project-data"
+//import { Link } from "react-scroll"
+
+import ProjectTemplate from "./ProjectTemplate"
 
 
 export default function Project(props) {
@@ -201,3 +204,27 @@ export default function Project(props) {
       </>
     )
   }
+
+ 
+// export default function Project() {
+
+//     const project = data.map( item => {
+
+//           return (
+//               <ProjectTemplate 
+//                   key={item.id}
+//                   title={item.title}
+//                   description={item.description}
+//                   img={item.img}
+//                   Link={item.link}
+//                   techUsed={item.techUsed}
+//               />
+//           )
+//     })
+
+//     return (
+//       <div>
+//         {project}
+//       </div>
+//     )
+//   }    
