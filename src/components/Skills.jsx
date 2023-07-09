@@ -8,6 +8,7 @@ import css from "../Assets/icons/css.png"
 import node from "../Assets/icons/node-js.png"
 import express from "../Assets/icons/express-js.png"
 import mongodb from "../Assets/icons/mongodb.png"
+import reactLogo from "../Assets/icons/react.png"
 
 export default function Contacts(props) {
 
@@ -16,7 +17,7 @@ export default function Contacts(props) {
     return (
       <>
         <div className={`${darkMode ? 'dark' : '' }`}>
-            <div className="pt-60 dark:text-slate-300 dark:bg-slate-700" id="contact">
+            <div className="pt-40 dark:text-slate-300 dark:bg-slate-700" id="contact">
             <h2 className="flex justify-center font-Fredericka text-3xl text-yellow-600" >My Tools</h2>
                 <div id="" className="flex flex-row justify-center gap-4 py-10 px-8 pb-20 md:gap-8 md:py-20 md:mx-40">
                     <ul className="flex flex-row flex-wrap justify-center gap-5 md:gap-10 my-2">
@@ -46,6 +47,13 @@ export default function Contacts(props) {
                                 alt="javascript-logo"/>
                             <div>
                                 <h5 className="flex justify-center">Javascript</h5>
+                            </div>
+                        </li>
+                        <li className="block w-14 md:inline-block m-2 md:m-8">
+                            <img src={reactLogo}                    
+                                alt="react-logo"/>
+                            <div>
+                                <h5 className="flex justify-center">React</h5>
                             </div>
                         </li>
                         <li className="block w-14 md:inline-block m-2 md:m-8">

@@ -1,10 +1,5 @@
-//import './App.css'
 import React from "react"
 import myImg from "../Assets/profile-pic.jpg"
-
-// function click(){
-//   console.log('hello')
-// }
 
 export default function Main(props) {
 
@@ -14,7 +9,7 @@ export default function Main(props) {
     <>
       <main className={`${darkMode ? 'dark' : ''}`}>
         <div className="p-10 items-center justify-center md:p-20 lg-60 md:text-center dark:bg-slate-700">
-            <h1 className="font-Fredericka text-3xl text-yellow-600 underline py-20">
+            <h1 className="font-Fredericka text-3xl text-yellow-600 underline pb-20">
               Hello, I am Mauro
             </h1>
             <div className="my-8 font-SpecialElite text-lg dark:text-slate-300">

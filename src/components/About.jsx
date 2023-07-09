@@ -6,10 +6,10 @@ export default function About(props) {
 
     return (
       <>
-        <div className={`${darkMode ? 'dark' : ''}`}>
-          <div className="p-10 items-center justify-center md:p-20 lg-60 dark:text-slate-300 dark:bg-slate-700" id="about">
+        <div className={`${darkMode ? 'bg-slate-700 text-slate-300' : ''}`}>
+          <div className="p-10 items-center justify-center md:p-20 lg-60" id="about">
             <span className="flex justify-center mt-40 mb-20 font-Fredericka text-3xl text-yellow-600">About Me</span>
-            <div className="dark:text-slate-300">
+            <div className="">
 
               <p className="font-SpecialElite">""At the age of 13, I discovered my passion for coding while exploring my dad's computer. Despite the limited resources and a lack of learning materials in my native language, I began teaching myself Python. Although I faced initial challenges and setbacks, my love for technology never wavered. 
               <br/>
