@@ -11,11 +11,7 @@ export default function ProjectTemplate(props) {
 
   const { darkMode, link, icons} = props
 
-  //console.log(props)
-
-  // const handleClick = (link) => {
-  //   window.open('https://maurobusso.netlify.app/') // Open the link in a new tab/window
-  // }
+  console.log(props)
 
   const handleClick = (link) => {
     window.open(link) // Open the link in a new tab/window
@@ -86,7 +82,7 @@ export default function ProjectTemplate(props) {
               <div className="flex-1 md:basis-1/4 shadow-2xl shadow-yellow-600 rounded-2xl p-4">
               <h1 className="my-4 font-SpecialElite">{props.title}</h1> 
                 <div className="flex justify-center content-center">
-                  <a rel="noopener noreferrer">
+                  <a  rel="noopener noreferrer">
                     <img src={`${props.img}`} 
                         onClick={handleClick}
                         alt={props.id} 
