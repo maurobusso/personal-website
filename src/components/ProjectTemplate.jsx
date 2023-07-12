@@ -14,7 +14,7 @@ export default function ProjectTemplate(props) {
   console.log(props)
 
   const handleClick = (link) => {
-    window.open(link, '_blank') // Open the link in a new tab/window
+    window.open(link) // Open the link in a new tab/window
   }
   
   const iconElement = icons.map(tech => {
