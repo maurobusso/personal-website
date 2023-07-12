@@ -13,8 +13,8 @@ export default function ProjectTemplate(props) {
 
   console.log(props)
 
-  const handleClick = (link) => {
-    window.open(link) // Open the link in a new tab/window
+  const handleClick = () => {
+    window.open('https://maurobusso.netlify.app/', '_blank' ) // Open the link in a new tab/window
   }
   
   const iconElement = icons.map(tech => {
@@ -82,7 +82,7 @@ export default function ProjectTemplate(props) {
               <div className="flex-1 md:basis-1/4 shadow-2xl shadow-yellow-600 rounded-2xl p-4">
               <h1 className="my-4 font-SpecialElite">{props.title}</h1> 
                 <div className="flex justify-center content-center">
-                  <a  rel="noopener noreferrer">
+                  <a href={link} rel="noopener noreferrer">
                     <img src={`${props.img}`} 
                         onClick={handleClick}
                         alt={props.id} 
