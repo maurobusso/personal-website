@@ -3,6 +3,7 @@ import exploreSpace from "../Assets/projects-tumbnails/explore-space.png"
 import localAnahesteticCalculator from "../Assets/projects-tumbnails/local-anahestetic-calculator.png"
 import travelJournal from "../Assets/projects-tumbnails/travel-journal.png"
 import blackjack from "../Assets/projects-tumbnails/blackjack.png"
+//import fraserFootcare from "../Assets/projects-tumbnails/fraserFootcare.png"
 
 const projectData =  [
     {
@@ -59,7 +60,7 @@ const projectData =  [
     // {
     //     id: 5,
     //     title: "Fraser Footcare",
-    //     description: "This project was inspired by the Scrimba react course as a final solo project at the end of the second module of the course. It is a static page that display different location with immages, a brief description and a link to the google map location.",
+    //     description: "This website was built for a small business as a landing page and to allaw customer to see all the services offered and book appointments",
     //     img: fraserFootcare,
     //     link:"https://fraserfootcare.netlify.app",
     //     techUsed: [
