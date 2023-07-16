@@ -55,7 +55,19 @@ const projectData =  [
             'tailwind',
             'react',
         ]
-    }
+    },
+    // {
+    //     id: 5,
+    //     title: "Fraser Footcare",
+    //     description: "This project was inspired by the Scrimba react course as a final solo project at the end of the second module of the course. It is a static page that display different location with immages, a brief description and a link to the google map location.",
+    //     img: fraserFootcare,
+    //     link:"https://fraserfootcare.netlify.app",
+    //     techUsed: [
+    //         'html',
+    //         'tailwind',
+    //         'react',
+    //     ]
+    // }
 
 ]
 
