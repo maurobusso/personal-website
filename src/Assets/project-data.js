@@ -3,7 +3,7 @@ import exploreSpace from "../Assets/projects-tumbnails/explore-space.png"
 import localAnahesteticCalculator from "../Assets/projects-tumbnails/local-anahestetic-calculator.png"
 import travelJournal from "../Assets/projects-tumbnails/travel-journal.png"
 import blackjack from "../Assets/projects-tumbnails/blackjack.png"
-//import fraserFootcare from "../Assets/projects-tumbnails/fraserFootcare.png"
+import fraserFootcare from "../Assets/projects-tumbnails/fraser-footcare.png"
 
 const projectData =  [
     {
@@ -22,14 +22,14 @@ const projectData =  [
     },
     {
         id: 2,
-        title: "Local Anaesthetic Calculator",
-        description: "This app was made as a tool to be used by podiatrist when calculating the amount of local anaesthetic to safely inject into a patient. This is because for experience, i know that most podiatry do not remember the exact mathematical equation and they always have to look it up and manually calculate the dose, which is not ideal. Taking up time that can be used more efficiently.",
-        img: localAnahesteticCalculator,
-        link:"https://msd-app.netlify.app/",
+        title: "Fraser Footcare",
+        description: "Fraser Foot Care App is a client project aimed at providing comprehensive foot care services to our clients. This user-friendly web application allows patients to easily schedule appointments, access informative resources, and stay up-to-date with the latest news and services offered by Fraser Foot Care.",
+        img: fraserFootcare,
+        link:"https://fraserfootcare.netlify.app",
         techUsed: [
             'html',
             'tailwind',
-            'js',
+            'react',
         ]
     },
     {
@@ -57,18 +57,18 @@ const projectData =  [
             'react',
         ]
     },
-    // {
-    //     id: 5,
-    //     title: "Fraser Footcare",
-    //     description: "This website was built for a small business as a landing page and to allaw customer to see all the services offered and book appointments",
-    //     img: fraserFootcare,
-    //     link:"https://fraserfootcare.netlify.app",
-    //     techUsed: [
-    //         'html',
-    //         'tailwind',
-    //         'react',
-    //     ]
-    // }
+    {
+        id: 5,
+        title: "Local Anaesthetic Calculator",
+        description: "This app was made as a tool to be used by podiatrist when calculating the amount of local anaesthetic to safely inject into a patient. This is because for experience, i know that most podiatry do not remember the exact mathematical equation and they always have to look it up and manually calculate the dose, which is not ideal. Taking up time that can be used more efficiently.",
+        img: localAnahesteticCalculator,
+        link:"https://msd-app.netlify.app/",
+        techUsed: [
+            'html',
+            'tailwind',
+            'js',
+        ]
+    },
 
 ]
 
