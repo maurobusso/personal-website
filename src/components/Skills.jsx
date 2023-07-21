@@ -1,5 +1,6 @@
 import React from "react"
 import javascript from "../Assets/icons/js.png"
+import typescript from "../Assets/icons/ts.png"
 import html from "../Assets/icons/html.png"
 import tailwind from "../Assets/icons/tailwind.png"
 import git from "../Assets/icons/git.png"
@@ -46,7 +47,14 @@ export default function Contacts(props) {
                             <img src={javascript}                    
                                 alt="javascript-logo"/>
                             <div>
-                                <h5 className="flex justify-center">Javascript</h5>
+                                <h5 className="flex justify-center">JavaScript</h5>
+                            </div>
+                        </li>
+                        <li className="block w-14 md:inline-block m-2 md:m-8">
+                            <img src={typescript}                    
+                                alt="typescript-logo"/>
+                            <div>
+                                <h5 className="flex justify-center">TypeScript</h5>
                             </div>
                         </li>
                         <li className="block w-14 md:inline-block m-2 md:m-8">

@@ -11,7 +11,7 @@ export default function About(props) {
             <span className="flex justify-center mt-40 mb-20 font-Fredericka text-3xl text-yellow-600">About Me</span>
             <div className="">
 
-              <p className="font-SpecialElite">""At the age of 13, I discovered my passion for coding while exploring my dad's computer. Despite the limited resources and a lack of learning materials in my native language, I began teaching myself Python. Although I faced initial challenges and setbacks, my love for technology never wavered. 
+              <p className="font-SpecialElite">"At the age of 13, I discovered my passion for coding while exploring my dad's computer. Despite the limited resources and a lack of learning materials in my native language, I began teaching myself Python. Although I faced initial challenges and setbacks, my love for technology never wavered.
               <br/>
               <br/>
               During my university years, I worked on a project using Wix to create a website that helped people with rehabilitation. It was then that I realized my deep affinity for web development. Motivated by this newfound passion, I dived into learning HTML, CSS, and JavaScript. This marked the turning point in my career, as I decided to transition into software development. 

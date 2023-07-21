@@ -4,6 +4,7 @@ import html from "../Assets/icons/html.png"
 import tailwind from "../Assets/icons/tailwind.png"
 import react from "../Assets/icons/react.png"
 import js from "../Assets/icons/js.png"
+import ts from "../Assets/icons/ts.png"
 import api from "../Assets/icons/api-64.png"
 
 
@@ -71,9 +72,20 @@ export default function ProjectTemplate(props) {
             </div>
           </li>
       )
-    } 
+    } else if (tech === 'ts') {
+      icons.push(
+          <li className="w-10 flex-col justify-center items-center">
+            <img src={ts}
+                alt="ts-logo"/>
+            <div>
+              <h5 className="flex justify-center">TypeScript</h5>
+            </div>
+          </li>
+      )
+    }
     return icons
   })
+  
 
     return (
 

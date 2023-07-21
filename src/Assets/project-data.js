@@ -42,6 +42,7 @@ const projectData =  [
             'html',
             'tailwind',
             'js',
+            'ts',
             'api'
         ]
     },
