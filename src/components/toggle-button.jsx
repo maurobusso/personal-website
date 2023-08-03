@@ -10,7 +10,9 @@ export default function ToggleButton(props) {
 
     return (
         <FormGroup>
-          <FormControlLabel control={<Switch defaultChecked={darkMode} />} label={darkMode ? 'dark mode off' : 'dark mode on'} labelPlacement="start" onClick={toggleSwitch}/>
+          <FormControlLabel control={<Switch defaultChecked={darkMode} />} label={'Dark Mode'} labelPlacement="start" onClick={toggleSwitch}/>
         </FormGroup>
     )
   }
+
+  //to make lable change label={darkMode ? 'Dark Mode off' : 'Dark Mode on'}

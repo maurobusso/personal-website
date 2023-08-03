@@ -13,11 +13,11 @@ export default function Main(props) {
               Hello, I am Mauro
             </h1>
             <div className="my-8 font-SpecialElite text-lg dark:text-slate-300">
-              FULL-STACK SOFTWARE ENGINEER | NODE.JS | JAVASCRIPT | REACT | MONGO DB
+              FULL-STACK SOFTWARE DEVELOPER 
             </div>
             <div className="md:flex items-center">
               <span className="text-lg md:px-8 lg:px-16 md:mt-20 md:max-w-2xl font-SpecialElite dark:text-slate-300">
-                I'm a front-end developer with a passion for building apps and websites. I love to problem solve and think outside of the box. A strong background in Health care has taught me the importance of constantly learning and improving, and how to communicate effectively. I am highly passionate about advancing my development career in tech and I am open to new opportunites!
+                Software developer with 1+ year of web experience and 8 years of professional working experience in different fields such as health care and hospitality. A strong background in Health care has taught me the importance of constantly learning and improving, and how to communicate effectively. <span className="text-yellow-600">Certified in web development and React</span> and experienced with front-end work.
               </span>
               <div className="relative mx-auto w-60 h-60 my-20 rounded-xl lg:w-80 lg:h-80"> 
                 <div className="absolute -right-8 -top-12 bg-yellow-600 w-60 h-60 my-20 rounded-xl lg:w-80 lg:h-80"></div>

@@ -1,9 +1,10 @@
 //tumbnais
 import exploreSpace from "../Assets/projects-tumbnails/explore-space.png"
 import localAnahesteticCalculator from "../Assets/projects-tumbnails/local-anahestetic-calculator.png"
-import travelJournal from "../Assets/projects-tumbnails/travel-journal.png"
+//import travelJournal from "../Assets/projects-tumbnails/travel-journal.png"
 import blackjack from "../Assets/projects-tumbnails/blackjack.png"
 import fraserFootcare from "../Assets/projects-tumbnails/fraser-footcare.png"
+import birthdayTracker from "../Assets/projects-tumbnails/birthday-tracker.png"
 
 const projectData =  [
     {
@@ -48,18 +49,6 @@ const projectData =  [
     },
     {
         id: 4,
-        title: "Travel Journal",
-        description: "This project was inspired by the Scrimba react course as a final solo project at the end of the second module of the course. It is a static page that display different location with immages, a brief description and a link to the google map location.",
-        img: travelJournal,
-        link:"https://mauro-travel-journal.netlify.app/",
-        techUsed: [
-            'html',
-            'tailwind',
-            'react',
-        ]
-    },
-    {
-        id: 5,
         title: "Local Anaesthetic Calculator",
         description: "This app was made as a tool to be used by podiatrist when calculating the amount of local anaesthetic to safely inject into a patient. This is because for experience, i know that most podiatry do not remember the exact mathematical equation and they always have to look it up and manually calculate the dose, which is not ideal. Taking up time that can be used more efficiently.",
         img: localAnahesteticCalculator,
@@ -70,7 +59,21 @@ const projectData =  [
             'js',
         ]
     },
-
+    {
+        id: 5,
+        title: "Birthday tracker",
+        description: "The main goal of this project was to enhance back-end development skills while creating a practical application to store and manage birthdays. The app allows users to add, update, and delete birthdays, which are then stored in a database. Users can later access these birthdays to get timely reminders and celebrate the special occasions of their friends and family.",
+        img: birthdayTracker,
+        link:"https://birthday-app-u9ct.onrender.com",
+        techUsed: [
+            'html',
+            'tailwind',
+            'js',
+            'node',
+            'express',
+            'mongodb'
+        ]
+    }
 ]
 
 export default projectData

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-scroll"
 import mauroCv from "../Assets/Mauro-cv.pdf"
-import ToggleButton from "./toggle-button"
+import ToggleButton from "./Toggle-button"
 
 
 export default function Navbar(props) {
@@ -16,8 +16,8 @@ export default function Navbar(props) {
 
     return (
       <>
-        <nav className={`${darkMode ? 'dark' : ''} font-SpecialElite shadow`}>
-          <div className="dark:bg-slate-700 dark:text-slate-300 p-8">
+        <nav className={`${darkMode ? 'dark' : ''} font-SpecialElite shadow border-b-2`}>
+          <div className="dark:bg-slate-700 dark:text-slate-300 dark:border-b-2 dark:border-white p-8">
 
             <div className="flex justify-end items-center ">
               <span className="ml-4 border rounded p-2 pt-0 pb-0 cursor-pointer md:hidden block bg-yellow-600 max-w-min hover:text-orange-800">
@@ -48,7 +48,7 @@ export default function Navbar(props) {
                 <li className="m-4 p-4 max-w-min bg-yellow-600 md:mx-8 hover:text-orange-800">
                   <a href={mauroCv} target="_blank" rel="noreferrer">Resume</a>
                 </li>
-                <li className="flex align-start hover:text-orange-800">
+                <li className="flex align-start hover:text-orange-800 ">
                   <ToggleButton 
                     toggleSwitch={toggleSwitch} 
                     darkMode={darkMode}
