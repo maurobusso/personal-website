@@ -2,10 +2,7 @@
 
 How is it made?
 
-I built it using npm create-react-app on VS Code and local server. 
-I am particularly proud of this project because I have been planning it since the day I began learning to code, so having built it from the ground up was a major milestone for me.
-I wanted something minimalist, well designed, and highly functional. 
-I looked at dozens of portfolio websites, and while many of them were incredibly inspiring, I decided to keep things simple from the beginning.
+I developed the project using npm create-react-app on VS Code and a local server. This project holds a special place for me because I had been envisioning it since the very start of my coding journey. Building it from scratch marked a significant milestone in my learning journey. I aimed for a minimalist, well-designed, and highly functional website. While I found inspiration in dozens of portfolio websites, I consciously chose to keep things simple from the outset.
 
 #
 
