@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-scroll"
 import mauroCv from "../Assets/Mauro-cv.pdf"
-import ToggleButton from "./Toggle-button"
+import ToggleButton from "./ToggleButton"
 
 
 export default function Navbar(props) {
