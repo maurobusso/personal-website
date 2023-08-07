@@ -48,7 +48,7 @@ export default function Navbar(props) {
                 <li className="m-4 p-4 max-w-min bg-yellow-600 md:mx-8 hover:text-orange-800">
                   <a href={mauroCv} target="_blank" rel="noreferrer">Resume</a>
                 </li>
-                <li className="flex align-start hover:text-orange-800 ">
+                <li className="">
                   <ToggleButton 
                     toggleSwitch={toggleSwitch} 
                     darkMode={darkMode}

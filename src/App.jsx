@@ -6,6 +6,7 @@ import Contacts from './components/Contacts'
 import Skills from './components/Skills'
 import Project from './components/Project'
 import About from './components/About'
+import Feedback from './components/Feedback'
 
 export default function App() {
 
@@ -25,6 +26,7 @@ export default function App() {
         <Contacts darkMode={darkMode} />
         <Skills darkMode={darkMode} />
         <Project darkMode={darkMode} />
+        <Feedback darkMode={darkMode} />
         <About darkMode={darkMode} />
       </>
     )

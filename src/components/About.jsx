@@ -6,12 +6,12 @@ export default function About(props) {
 
     return (
       <>
-        <div className={`${darkMode ? 'bg-slate-700 text-slate-300' : ''}`}>
+        <div className={`${darkMode ? 'bg-slate-600 text-slate-300' : ''}`}>
           <div className="p-10 items-center justify-center md:p-20 lg-60" id="about">
-            <span className="flex justify-center mt-40 mb-20 font-Fredericka text-3xl text-yellow-600">About Me</span>
+            <span className="flex justify-center mt-20 mb-20 font-Fredericka text-3xl text-yellow-600">About Me</span>
             <div className="md:px-20 lg:px-40">
 
-              <p className="font-SpecialElite">
+              <p className="font-SpecialElite text-sm md:text-base">
                 At the age of 13, I discovered my passion for tech while exploring my parents' Windows 98 PC. My brother and I would visit the recycling center, where we picked up discarded computers to take them apart and explore their inner workings.
               <br/>
               <br/>

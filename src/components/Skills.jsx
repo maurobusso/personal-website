@@ -21,78 +21,80 @@ export default function Contacts(props) {
             <div className="pt-40 dark:text-slate-300 dark:bg-slate-700" id="contact">
             <h2 className="flex justify-center font-Fredericka text-3xl text-yellow-600" >My Tools</h2>
                 <div id="" className="flex flex-row justify-center gap-4 py-10 px-8 pb-20 md:gap-8 md:py-20 md:mx-40">
-                    <ul className="flex flex-row flex-wrap justify-center gap-5 md:gap-10 my-2">
-                        <li className="block w-14 md:inline-block m-2 md:m-8">
+                    <ul className="flex flex-row flex-wrap justify-center gap-5 md:gap-4 my-2 text-xs md:text-base">
+                        <li className="block w-8 md:w-14 md:inline-block m-2 md:m-8">
                             <img src={html}                    
-                                alt="html-logo"/>
+                                alt="html-logo"
+                                className="md:w-14"
+                                />
                             <div>
                                 <h5 className="flex justify-center">HTML</h5>
                             </div>
                         </li>
-                        <li className="block w-14 md:inline-block m-2 md:m-8">
+                        <li className="block w-8 md:w-14 md:inline-block m-2 md:m-8">
                             <img src={css}                    
                                 alt="html-logo"/>
                             <div>
                                 <h5 className="flex justify-center">CSS</h5>
                             </div>
                         </li>
-                        <li className="block w-14 md:inline-block m-2 md:m-8">
+                        <li className="block w-8 md:w-14 md:inline-block m-2 md:m-8">
                             <img src={tailwind}                    
                                 alt="tailwind-logo"/>
                             <div>
                                 <h5 className="flex justify-center">Tailwind.css</h5>
                             </div>
                         </li>
-                        <li className="block w-14 md:inline-block m-2 md:m-8">
+                        <li className="block w-8 md:w-14 md:inline-block m-2 md:m-8">
                             <img src={javascript}                    
                                 alt="javascript-logo"/>
                             <div>
                                 <h5 className="flex justify-center">JavaScript</h5>
                             </div>
                         </li>
-                        <li className="block w-14 md:inline-block m-2 md:m-8">
+                        <li className="block w-8 md:w-14 md:inline-block m-2 md:m-8">
                             <img src={typescript}                    
                                 alt="typescript-logo"/>
                             <div>
                                 <h5 className="flex justify-center">TypeScript</h5>
                             </div>
                         </li>
-                        <li className="block w-14 md:inline-block m-2 md:m-8">
+                        <li className="block w-8 md:w-14 md:inline-block m-2 md:m-8">
                             <img src={reactLogo}                    
                                 alt="react-logo"/>
                             <div>
                                 <h5 className="flex justify-center">React</h5>
                             </div>
                         </li>
-                        <li className="block w-14 md:inline-block m-2 md:m-8">
+                        <li className="block w-8 md:w-14 md:inline-block m-2 md:m-8">
                             <img src={git}                    
                                 alt="git-logo"/>
                             <div>
                                 <h5 className="flex justify-center">Git</h5>
                             </div>
                         </li>
-                        <li className="block w-14 md:inline-block m-2 md:m-8">
+                        <li className="block w-8 md:w-14 md:inline-block m-2 md:m-8">
                             <img src={node}                    
                                 alt="html-logo"/>
                             <div>
                                 <h5 className="flex justify-center">Node.js</h5>
                             </div>
                         </li>
-                        <li className="block w-14 md:inline-block m-2 md:m-8">
+                        <li className="block w-8 md:w-14 md:inline-block m-2 md:m-8">
                             <img src={express}                    
                                 alt="api-logo"/>
                             <div>
                                 <h5 className="flex justify-center">Express.js</h5>
                             </div>
                         </li>
-                        <li className="block w-14 md:inline-block m-2 md:m-8">
+                        <li className="block w-8 md:w-14 md:inline-block m-2 md:m-8">
                             <img src={api}                    
                                 alt="html-logo"/>
                             <div>
                                 <h5 className="flex justify-center">APIs</h5>
                             </div>
                         </li>
-                        <li className="block w-14 md:inline-block m-2 md:m-8">
+                        <li className="block w-8 md:w-14 md:inline-block m-2 md:m-8">
                             <img src={mongodb}                    
                                 alt="html-logo"/>
                             <div>
