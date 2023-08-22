@@ -2,7 +2,7 @@ import * as React from 'react'
 import FormGroup from '@mui/material/FormGroup'
 import FormControlLabel from '@mui/material/FormControlLabel'
 import Switch from '@mui/material/Switch'
-//import React, { useState } from 'react'
+
 
 export default function ToggleButton(props) {
 
@@ -18,5 +18,3 @@ export default function ToggleButton(props) {
         </FormGroup>
     )
   }
-
-  //to make lable change label={darkMode ? 'Dark Mode off' : 'Dark Mode on'}

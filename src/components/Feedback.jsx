@@ -1,7 +1,6 @@
 import React from "react"
 
 const FORM_ENDPOINT = 'https://public.herotofu.com/v1/aa96d720-36a5-11ee-aa48-0d756f031946'
-//   "https://public.herotofu.com/v1/d7f4f4a0-7813-11ed-a126-b172cf164538"
 
 export default function Form(props) {
 
@@ -24,7 +23,7 @@ export default function Form(props) {
       </>
     )
   }
-  //px-10 md:px-40 lg:px-80 xl:max-w-screen-xl items-center justify-center
+  
   return (
     <div className={`${darkMode ? 'bg-slate-700 text-slate-300' : ''} pt-10 px-10 pb-10`}>
       <h1 className="px-10 md:px-20 pt-20 flex justify-center font-SpecialElite text-sm md:text-base">If you have a moment I would really apreciate a feedback or what you think about my project. 
