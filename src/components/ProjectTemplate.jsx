@@ -125,7 +125,7 @@ export default function ProjectTemplate(props) {
         <>
           <div className={`${darkMode ? 'bg-slate-600 text-slate-300' : ''} p-14`}>   
             <div className={`${darkMode ? 'bg-slate-700 text-slate-300' : ''}flex-1 md:basis-1/4 shadow-2xl shadow-yellow-600 rounded-2xl p-4 border-2 border-yellow-600`}>
-              <h1 className="my-4 font-SpecialElite">{props.title}</h1> 
+              <h1 className="my-4 font-SpecialElite text-lg">{props.title}</h1> 
                 <div className="flex justify-center content-center ">
                   <a href={link} rel="noopener noreferrer">
                     <img src={`${props.img}`} 
@@ -144,30 +144,9 @@ export default function ProjectTemplate(props) {
                     </li>
                   </ul>
                 </div>
-                <div className="my-4 font-SpecialElite text-sm md:text-lg">{props.description}</div>
+                <div className="my-4 font-SpecialElite ">{props.description}</div>
               </div>
           </div> 
         </>
     )
 }
-
-
-
-// Imagine I asked you to add a new table to the UI of our application.
-
-// The table needs to display a list of drinks.
-
-// Each drink can be one of either: Soft Drink, Alcoholic Drink, Caffeinated Drink.
-
-// All drinks have a name. Example: Coca Cola, Beer, Coffee.
-
-// Caffeinated drinks have caffeine content (e.g. 50mg/100ml)
-// Alcoholic drinks have alcohol content (e.g. 4%)
-// Soft drinks have sugar content (e.g. 8g/100ml)
-// For each drink in the table, the first column should be the name of the drink.
-
-// The second column will be a details column, which will show either the sugar content, caffeine content, or alcohol content of the drink.
-
-// How would you go about implementing this?
-
-// Try to adhere to best practices and remain open to extension.

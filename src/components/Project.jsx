@@ -1,8 +1,4 @@
 import React from "react"
-// import project1 from "../Assets/projects-tumbnails/explore-space.png"
-// import project2 from "../Assets/projects-tumbnails/local-anahestetic-calculator.png"
-// import project3 from "../Assets/projects-tumbnails/travel-journal.png"
-// import project4 from "../Assets/projects-tumbnails/blackjack.png"
 
 //project data
 import data from "../Assets/project-data"
