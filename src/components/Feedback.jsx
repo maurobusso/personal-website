@@ -25,8 +25,8 @@ export default function Form(props) {
   }
   
   return (
-    <div className={`${darkMode ? 'bg-slate-700 text-slate-300' : ''} pt-10 px-10 pb-10`}>
-      <h1 className="px-10 md:px-20 pt-20 flex justify-center font-SpecialElite text-sm md:text-base">If you have a moment, I would really apreciate a feedback on what you think about my porfolio. 
+    <div className={`${darkMode ? 'bg-slate-700 text-slate-300' : 'bg-yellow-400'} pt-10 px-10 pb-10`}>
+      <h1 className="px-10 md:px-20 pt-20 flex justify-center font-SpecialElite text-sm md:text-base">If you have a moment, I would really apreciate a feedback on what you think about my poerfolio. 
       <br/>
       <br/>
       Also I am currently accepting new freelance clients, interesting project opportunities, and casual coffee chats.</h1>

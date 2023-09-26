@@ -6,9 +6,9 @@ export default function About(props) {
 
     return (
       <>
-        <div className={`${darkMode ? 'bg-slate-600 text-slate-300' : ''}`}>
+        <div className={`${darkMode ? 'bg-slate-600 text-slate-300' : 'bg-yellow-400'}`}>
           <div className="p-10 items-center justify-center md:p-20 lg-60" id="about">
-            <span className="flex justify-center mt-20 mb-20 font-Fredericka text-3xl text-yellow-600">About Me</span>
+            <span className="flex justify-center mt-20 mb-20 font-Fredericka text-3xl text-yellow-700">About Me</span>
             <div className="md:px-20 lg:px-40">
 
               <p className="font-SpecialElite text-sm md:text-base">

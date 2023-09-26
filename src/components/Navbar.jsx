@@ -16,7 +16,7 @@ export default function Navbar(props) {
 
     return (
       <>
-        <nav className={`${darkMode ? 'dark' : ''} font-SpecialElite shadow border-b-2`}>
+        <nav className={`${darkMode ? 'dark' : 'bg-yellow-400'} font-SpecialElite shadow border-b-2`}>
           <div className="dark:bg-slate-700 dark:text-slate-300 dark:border-b-2 dark:border-white p-8">
 
             <div className="flex justify-end items-center ">
