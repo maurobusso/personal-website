@@ -118,7 +118,23 @@ export default function ProjectTemplate(props) {
     }
     return icons
   })
-  
+
+  const [windowWidth, setWindowWidth] = React.useState(window.innerWidth)
+
+  React.useEffect(() => {
+    // Create an event listener to update screenWidth when the screen is resized.
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    // Attach the event listener when the component mounts.
+    window.addEventListener('resize', handleResize);
+
+    // Remove the event listener when the component unmounts.
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
     return (
 
@@ -144,7 +160,9 @@ export default function ProjectTemplate(props) {
                     </li>
                   </ul>
                 </div>
-                <div className="my-4 font-SpecialElite ">{props.description}</div>
+                { windowWidth > 780 ? <div className="my-4 font-SpecialElite ">{props.description}</div> : '' }
+
+                {/* <div className="my-4 font-SpecialElite ">{props.description}</div> */}
               </div>
           </div> 
         </>
