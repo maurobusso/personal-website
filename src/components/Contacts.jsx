@@ -10,7 +10,7 @@ export default function Contacts(props) {
 
     return (
       <>
-        <div className={`${darkMode ? 'dark' : 'bg-yellow-400'}`}>
+        <div className={`${darkMode ? 'dark' : 'bg-yellow-200'}`}>
             <div className="pt-20 dark:bg-slate-700" id="contact">
             <h2 className="flex justify-center font-Fredericka text-3xl text-yellow-700" >Get in contact</h2>
                 <div id="contact" className="flex flex-row justify-center gap-4 py-10 mx-10 pb-20 border-b-4 border-yellow-600 md:gap-8 md:py-20 md:mx-40 ">
