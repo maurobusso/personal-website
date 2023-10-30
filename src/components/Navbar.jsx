@@ -16,8 +16,8 @@ export default function Navbar(props) {
 
     return (
       <>
-        <nav className={`${darkMode ? 'dark' : 'bg-yellow-200'} font-SpecialElite shadow border-b-2`}>
-          <div className="dark:bg-slate-700 dark:text-slate-300 dark:border-b-2 dark:border-white p-8">
+        <nav className={`${darkMode ? 'dark' : 'bg-yellow-200'} font-SpecialElite shadow border-b-2 border-yellow-600`}>
+          <div className="dark:bg-slate-700 dark:text-slate-300 dark:border-white p-8">
 
             <div className="flex justify-end items-center ">
               <span className="ml-4 border rounded p-2 pt-0 pb-0 cursor-pointer md:hidden block bg-yellow-600 max-w-min hover:text-orange-800">
