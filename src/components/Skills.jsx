@@ -18,9 +18,9 @@ export default function Contacts(props) {
     return (
       <>
         <div className={`${darkMode ? 'dark' : 'bg-yellow-200' }`}>
-            <div className="pt-40 dark:text-slate-300 dark:bg-slate-700" id="contact">
+            <div className="pt-20 dark:text-slate-300 dark:bg-slate-700" id="contact">
             <h2 className="flex justify-center font-Fredericka text-3xl text-yellow-700" >My Tools</h2>
-                <div id="" className="flex flex-row justify-center gap-4 py-10 px-8 pb-20 md:gap-8 md:py-20 md:mx-40">
+                <div id="" className="flex flex-row justify-center gap-4 py-10 px-8 md:gap-8 md:py-20 md:mx-40">
                     <ul className="flex flex-row flex-wrap justify-center gap-5 md:gap-4 my-2 text-xs md:text-base">
                         <li className="block w-8 md:w-14 md:inline-block m-2 md:m-8">
                             <img src={html}                    
