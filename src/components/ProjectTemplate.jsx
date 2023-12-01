@@ -31,7 +31,7 @@ export default function ProjectTemplate(props) {
             <img src={html}
                 alt="html-logo"/>
             <div>
-              <h5 className="flex justify-center">html</h5>
+              <h6 className="text-xs flex justify-center">html</h6>
             </div>
           </li>
       )
@@ -41,7 +41,7 @@ export default function ProjectTemplate(props) {
             <img src={js}
                 alt="js-logo"/>
             <div>
-              <h5 className="flex justify-center">Javascript</h5>
+              <h6 className="text-xs flex justify-center">Javascript</h6>
             </div>
           </li>
       )
@@ -51,7 +51,7 @@ export default function ProjectTemplate(props) {
             <img src={api}
                 alt="api-logo"/>
             <div>
-              <h5 className="flex justify-center">APIs</h5>
+              <h6 className="text-xs flex justify-center">APIs</h6>
             </div>
           </li>
       )
@@ -61,7 +61,7 @@ export default function ProjectTemplate(props) {
             <img src={react}
                 alt="react-logo"/>
             <div>
-              <h5 className="flex justify-center">React.js</h5>
+              <h6 className="text-xs flex justify-center">React.js</h6>
             </div>
           </li>
       )
@@ -71,7 +71,7 @@ export default function ProjectTemplate(props) {
             <img src={tailwind}
                 alt="tailwind-logo"/>
             <div>
-              <h5 className="flex justify-center">Tailwind</h5>
+              <h6 className="text-xs flex justify-center">Tailwind</h6>
             </div>
           </li>
       )
@@ -81,7 +81,7 @@ export default function ProjectTemplate(props) {
             <img src={ts}
                 alt="ts-logo"/>
             <div>
-              <h5 className="flex justify-center">TypeScript</h5>
+              <h6 className="text-xs flex justify-center">TypeScript</h6>
             </div>
           </li>
       )
@@ -91,7 +91,7 @@ export default function ProjectTemplate(props) {
             <img src={node}
                 alt="node-logo"/>
             <div>
-              <h5 className="flex justify-center">Node.JS</h5>
+              <h6 className="text-xs flex justify-center">Node.JS</h6>
             </div>
           </li>
       )
@@ -101,7 +101,7 @@ export default function ProjectTemplate(props) {
             <img src={express}
                 alt="express-logo"/>
             <div>
-              <h5 className="flex justify-center">Express</h5>
+              <h6 className="text-xs flex justify-center">Express</h6>
             </div>
           </li>
       )
@@ -111,7 +111,7 @@ export default function ProjectTemplate(props) {
             <img src={mongodb}
                 alt="mongodb-logo"/>
             <div>
-              <h5 className="flex justify-center">MongoDB</h5>
+              <h6 className="text-xs flex justify-center">MongoDB</h6>
             </div>
           </li>
       )
